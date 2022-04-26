@@ -1,0 +1,25 @@
+/*
+Theme Name: My Recipe Collection
+Author: Thomas Boulund Meng Hansen
+Description: Baseline for the recipe collection
+*/
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.white-box {
+    background-color: white;
+    border: 1px solid black;
+}
