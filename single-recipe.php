@@ -1,6 +1,5 @@
 <?php get_header() ?>
 
-    <!-- TODO: Implement advanced custom fields and a Wordpress loop here so these information are dynamically loaded -->
     <?php while(have_posts()): the_post() ?>
         <h2 class="pt-5 pb-2"><?php the_title() ?></h2>
         <div class="container">
